@@ -9,12 +9,30 @@
 import UIKit
 
 class ViewController: UIViewController {
-
+    
+    // MARK: - Outlets
+    @IBOutlet weak var contentView: UIView!
+    
+    // MARK: - Properties
+    let dataSource = ["view controller one", "view controller two", "view controller three", "view controller four"]
+    
+    var currentViewControllerIndex = 0
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        configurePageViewController()
     }
 
+    func configurePageViewController() {
+        
+        guard let pageViewController = storyboard?.instantiateViewController(withIdentifier: String(describing: CustomPageViewController.self)) as? CustomPageViewController else { return }
+        
+        pageViewController.delegate = self
+        pageViewController.dataSource = self
+        
+        addChild(pageViewController)
+        pageViewController.didMove(toParent: self)
+    }
 
 }
 

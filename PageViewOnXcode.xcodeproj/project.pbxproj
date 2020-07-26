@@ -13,6 +13,8 @@
 		A6A8F43424CD9EDE00C173CD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A6A8F43224CD9EDE00C173CD /* Main.storyboard */; };
 		A6A8F43624CD9EE100C173CD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A6A8F43524CD9EE100C173CD /* Assets.xcassets */; };
 		A6A8F43924CD9EE100C173CD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A6A8F43724CD9EE100C173CD /* LaunchScreen.storyboard */; };
+		A6A8F44124CDA3B900C173CD /* OtherViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6A8F44024CDA3B900C173CD /* OtherViewController.swift */; };
+		A6A8F44324CDA52500C173CD /* CustomPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6A8F44224CDA52500C173CD /* CustomPageViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		A6A8F43524CD9EE100C173CD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A6A8F43824CD9EE100C173CD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A6A8F43A24CD9EE100C173CD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A6A8F44024CDA3B900C173CD /* OtherViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OtherViewController.swift; sourceTree = "<group>"; };
+		A6A8F44224CDA52500C173CD /* CustomPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomPageViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +67,8 @@
 				A6A8F43524CD9EE100C173CD /* Assets.xcassets */,
 				A6A8F43724CD9EE100C173CD /* LaunchScreen.storyboard */,
 				A6A8F43A24CD9EE100C173CD /* Info.plist */,
+				A6A8F44024CDA3B900C173CD /* OtherViewController.swift */,
+				A6A8F44224CDA52500C173CD /* CustomPageViewController.swift */,
 			);
 			path = PageViewOnXcode;
 			sourceTree = "<group>";
@@ -139,7 +145,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				A6A8F43124CD9EDE00C173CD /* ViewController.swift in Sources */,
+				A6A8F44124CDA3B900C173CD /* OtherViewController.swift in Sources */,
 				A6A8F42D24CD9EDE00C173CD /* AppDelegate.swift in Sources */,
+				A6A8F44324CDA52500C173CD /* CustomPageViewController.swift in Sources */,
 				A6A8F42F24CD9EDE00C173CD /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
